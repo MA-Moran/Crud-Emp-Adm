@@ -56,7 +56,7 @@
 
             <?php } ?>
         </form>
-        <?php $aministrador->actualizar(); ?>
+        <?php $administrador->actualizar(); ?>
     </div>
 </body>
 </html>

@@ -14,9 +14,9 @@
     </header>
     <?php
         //instanciando la clase de admi
-        $aministrador = new Administrador();
+        $administrador = new Administrador();
         $departamentos = $administrador-> $departamentos();
-        $datos = $aministrador->getAdministradorById();
+        $datos = $administrador->getAdministradorById();
     ?>
     <h1 class="text-center">Actualizacion de Datos</h1>
     <div class="container">

@@ -22,7 +22,7 @@
     <div class="container">
         <form action="" method="POST">
             <?php foreach($datos as $item) { ?>
-            <input type="hidden" name="id_aministrador" value="<?php echo $item["id"]; ?>">
+            <input type="hidden" name="id_administrador" value="<?php echo $item["id"]; ?>">
             <label for="">Nombre</label>
             <input type="text" class="form-control" name="nombre" value="<?php echo $item["nombre"]; ?>">
 
